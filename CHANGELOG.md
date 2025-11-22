@@ -1,7 +1,7 @@
 # Syndicator
 
-## [247](https://github.com/TheMouseNest/Syndicator/tree/247) (2025-11-07)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/246...247) 
+## [248](https://github.com/TheMouseNest/Syndicator/tree/248) (2025-11-22)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/247...248) 
 
-- Fix a few typos  
-- Tag as support 12.0  
+- Fixes for TBC Classic Anniversary  
+- Reorganise code to be explicit about externally used functions/data  
