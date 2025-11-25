@@ -1,7 +1,6 @@
 # Syndicator
 
-## [248](https://github.com/TheMouseNest/Syndicator/tree/248) (2025-11-22)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/247...248) 
+## [249](https://github.com/TheMouseNest/Syndicator/tree/249) (2025-11-22)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/248...249) 
 
-- Fixes for TBC Classic Anniversary  
-- Reorganise code to be explicit about externally used functions/data  
+- Classic: Fix calling wrong function breaking bank previews in Baganator  
