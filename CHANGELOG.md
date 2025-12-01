@@ -1,6 +1,6 @@
 # Syndicator
 
-## [249](https://github.com/TheMouseNest/Syndicator/tree/249) (2025-11-22)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/248...249) 
+## [250](https://github.com/TheMouseNest/Syndicator/tree/250) (2025-12-01)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/249...250) 
 
-- Classic: Fix calling wrong function breaking bank previews in Baganator  
+- Update toc for China's Titan  
