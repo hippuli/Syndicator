@@ -1,6 +1,6 @@
 # Syndicator
 
-## [250](https://github.com/TheMouseNest/Syndicator/tree/250) (2025-12-01)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/249...250) 
+## [251](https://github.com/TheMouseNest/Syndicator/tree/251) (2025-12-02)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/250...251) 
 
-- Update toc for China's Titan  
+- Update toc for 11.2.7  
