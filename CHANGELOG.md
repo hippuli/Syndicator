@@ -1,7 +1,6 @@
 # Syndicator
 
-## [271](https://github.com/TheMouseNest/Syndicator/tree/271) (2026-06-16)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/270...271) 
+## [272](https://github.com/TheMouseNest/Syndicator/tree/272) (2026-06-18)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/271...272) 
 
-- Update toc for 12.0.7  
-- Fix incorrect TSM price source mapping (#93)  
+- Add "Sporefused: Myth" to bonus IDs for current season  
