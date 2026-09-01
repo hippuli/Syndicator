@@ -217,8 +217,37 @@ if addonTable.Constants.IsRetail then
 else
   prefix = "raceicon"
 end
+-- Classic Era's raceicon atlas now draws modern 3D faces. Use the old
+-- character-create sheet there. Other flavors keep the atlas (TBC+ races
+-- are not on this UV layout).
+local CLASSIC_RACE_TEXTURE = "Interface/Glues/CharacterCreate/UI-CharacterCreate-Races"
+local CLASSIC_RACE_COORDS = {
+  human_male = {0, 0.25, 0, 0.25},
+  dwarf_male = {0.25, 0.5, 0, 0.25},
+  gnome_male = {0.5, 0.75, 0, 0.25},
+  nightelf_male = {0.75, 1.0, 0, 0.25},
+  tauren_male = {0, 0.25, 0.25, 0.5},
+  scourge_male = {0.25, 0.5, 0.25, 0.5},
+  troll_male = {0.5, 0.75, 0.25, 0.5},
+  orc_male = {0.75, 1.0, 0.25, 0.5},
+  human_female = {0, 0.25, 0.5, 0.75},
+  dwarf_female = {0.25, 0.5, 0.5, 0.75},
+  gnome_female = {0.5, 0.75, 0.5, 0.75},
+  nightelf_female = {0.75, 1.0, 0.5, 0.75},
+  tauren_female = {0, 0.25, 0.75, 1.0},
+  scourge_female = {0.25, 0.5, 0.75, 1.0},
+  troll_female = {0.5, 0.75, 0.75, 1.0},
+  orc_female = {0.75, 1.0, 0.75, 1.0},
+}
 function addonTable.Utilities.GetCharacterIcon(race, sex)
   race = race:lower()
+  if addonTable.Constants.IsEra then
+    local coords = CLASSIC_RACE_COORDS[race .. "_" .. (sex == 3 and "female" or "male")]
+    if coords then
+      local u, v, w, z = unpack(coords)
+      return CreateTextureMarkup(CLASSIC_RACE_TEXTURE, 128, 128, 13, 13, u, v, w, z, 0, 0)
+    end
+  end
   return "|A:"..prefix.."-" .. (raceCorrections[race] or race) .. "-" .. genders[sex] .. ":13:13|a"
 end
 function addonTable.Utilities.GetGuildIcon()
