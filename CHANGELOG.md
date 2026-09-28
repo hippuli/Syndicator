@@ -1,6 +1,8 @@
 # Syndicator
 
-## [282](https://github.com/TheMouseNest/Syndicator/tree/282) (2026-09-19)
-[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/281...282) 
+## [284](https://github.com/TheMouseNest/Syndicator/tree/284) (2026-09-26)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/283...284) 
 
-- Fix typo  
+- Forever: Disable Warband (Blizzard doesn't have it enabled)  
+- Forever: Fixes to bank bag tracking  
+- Forever: Track bank tabs associated bags  
